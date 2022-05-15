@@ -97,7 +97,7 @@ while game:
         ball.rect.y = 200
         game = True 
     if pl1 >= 5:
-        window.blit(lose1 (300,400))
+        window.blit(lose1, (300,400))
         finish = True
     if pl2 >= 5:
         window.blit(lose2 ,(300 ,400))
